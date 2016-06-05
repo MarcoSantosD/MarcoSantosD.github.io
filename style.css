@@ -171,4 +171,14 @@ h3{
 
 h4{
     display: inline;
+    color: grey;
+}
+
+
+.contact p{
+    color: gray;
+}
+
+.contacttext{
+    margin-top: 5%;
 }
