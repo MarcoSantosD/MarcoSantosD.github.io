@@ -1,48 +1,154 @@
-/* in case I didn't tell you yet - use this whenever you do anything */
 * { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
 
-/* 
 
-This task should help you check what you remember from the course.
-
-In this task you just have to recreate what you see in the picture.
-Some rules:
-1. You can (and should) modify the HTML file, but 
-   you are only allowed to add on div tag and some classes. a
-2. The whole thing is 960px wide. That's how it has to be ;)
-3. All the spacing has to stay the same
-4. It obviously has to be in the center on any size of the screen
-
-*/
-
-body {
-	color: red;
-    width: 960px;
-    margin: auto;
-    font-family: Combo, sans-serif;
+body{
+    width: 80%;
+    background-color: whitesmoke;
+    text-align: center;
+     margin: 0 auto;
+    font-family: sans-serif;
+    color: lightgrey;
+    font-weight:500;
     
 }
 
-h1 {
-    border: 1px dashed red;
-    padding: 22px;
-    padding-left: 2px;
-    margin-top: 3px;
-    margin-bottom: 33px;
-        
+
+
+a {
+    text-decoration: none;
+    color: grey;
 }
 
-div div{
-    border: 1px dashed red;
-    display: inline-block;
-    width: 31%;
+
+
+.header ul li{
+    display: inline;
+    padding: 5px 30px 5px 30px;
+    border-bottom: 1px solid grey;
+}
+
+
+
+.header{
+    height: 80px;
+    
+}
+
+
+
+.header ul{
+    margin-top: 70px;
+}
+
+
+
+.SELECT{
+    color: dimgrey !important;
+    font-weight: 600;
+    border-bottom: 5px solid lightgrey !important;
+}
+
+
+
+.SKILLS{
+    margin-right: 10px !important;
+}
+
+
+
+.ABOUT{
+    margin-left: 10px !important;
+}
+
+
+
+
+.LOGO{
+    background-image: url(ms.png);
+    width: 100px;
+    height: 200px ;
+    background-size: contain;
+    background-repeat:   no-repeat;
+    background-position: center; 
+    margin: 0 auto;
+    padding: 60px 70px 70px 50px !important;
+    border-bottom: 0px solid whitesmoke !important;
+    
+    }
+
+
+
+.content{
+    height: 470px;
+    margin: 0 auto;
+    
+}
+
+.title{
+    width: 300px;
+    text-align: center;
+    margin: 0px auto;
+}
+
+.IMG{
+    background-image: url(designer.png);
+    width: 650px;
+    height: 350px;
+    background-size: contain;
+    background-repeat:   no-repeat;
+    background-position: center; 
+    margin: 0 auto;
+}
+
+
+
+
+h1{
+    color: dimgray;
+}
+
+
+
+
+.footer{
+    height: 10px;
+    width: 900px;
+    border-top: 1px solid grey;
+    margin: 0px auto;
+}
+
+
+
+.cleargrid{
+    clear: both;
+    display: block;
+    overflow: hidden;
+    visibility: hidden;
+    width: 0;
+    height: 0;
+}
+
+.worksgrid div{
+    text-align: center;
+    margin: 0 auto;
+    width: 33%;
+    display: inline;
     float: left;
-    padding-left: 5px;
+    position: relative;
+    
 }
 
-.first{
-    margin-right:  33px;
+
+.worksgrid{
+    margin-top: 50px;
 }
-.middle{
-    margin-right: 33px;
+
+
+.third{
+    padding-right: 0px !important;
+}
+
+
+p{
+    padding-bottom: 30px;
 }
