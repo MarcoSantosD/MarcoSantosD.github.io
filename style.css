@@ -159,7 +159,7 @@ h1{
 }
 
 h3{ 
-    color: dimgray
+    color: dimgray;
 }
 
 .resumetext div ul{
@@ -170,5 +170,5 @@ h3{
 }
 
 h4{
-    display: inline
+    display: inline;
 }
