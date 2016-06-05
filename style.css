@@ -1,5 +1,10 @@
 * { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
 
+::-webkit-scrollbar { 
+    display: none; 
+}
+
+
 
 body{
     width: 80%;
@@ -7,9 +12,9 @@ body{
     text-align: center;
      margin: 0 auto;
     font-family: sans-serif;
+    font-family: sans-serif;
     color: lightgrey;
     font-weight:500;
-    
 }
 
 
@@ -19,25 +24,21 @@ a {
     color: grey;
 }
 
-
+.header{
+    height: 90px;;
+    width: 100%;
+}
 
 .header ul li{
     display: inline;
-    padding: 5px 30px 5px 30px;
+    padding: 1% 3% 1% 3%;
     border-bottom: 1px solid grey;
+     
 }
-
-
-
-.header{
-    height: 80px;
-    
-}
-
 
 
 .header ul{
-    margin-top: 70px;
+    margin-top: 7%;
 }
 
 
@@ -48,16 +49,18 @@ a {
     border-bottom: 5px solid lightgrey !important;
 }
 
-
+.HOME{
+    padding-left: 5% !important;
+}
 
 .SKILLS{
-    margin-right: 10px !important;
+    margin-right: 0.5% !important;
 }
 
 
 
 .ABOUT{
-    margin-left: 10px !important;
+    margin-left:  0.5% !important;
 }
 
 
@@ -65,13 +68,11 @@ a {
 
 .LOGO{
     background-image: url(ms.png);
-    width: 100px;
-    height: 200px ;
     background-size: contain;
     background-repeat:   no-repeat;
     background-position: center; 
     margin: 0 auto;
-    padding: 60px 70px 70px 50px !important;
+    padding: 5% 5% 5% 5% !important;
     border-bottom: 0px solid whitesmoke !important;
     
     }
@@ -79,7 +80,6 @@ a {
 
 
 .content{
-    height: 470px;
     margin: 0 auto;
     
 }
@@ -92,8 +92,8 @@ a {
 
 .IMG{
     background-image: url(designer.png);
-    width: 650px;
-    height: 350px;
+    width: 680px;
+    height: 380px;
     background-size: contain;
     background-repeat:   no-repeat;
     background-position: center; 
@@ -108,47 +108,67 @@ h1{
 }
 
 
-
-
-.footer{
-    height: 10px;
-    width: 900px;
-    border-top: 1px solid grey;
-    margin: 0px auto;
-}
-
-
-
-.cleargrid{
+.first{
     clear: both;
-    display: block;
-    overflow: hidden;
-    visibility: hidden;
-    width: 0;
-    height: 0;
 }
 
 .worksgrid div{
     text-align: center;
-    margin: 0 auto;
-    width: 33%;
     display: inline;
     float: left;
     position: relative;
+    width: 31%;
+    margin: 1%;
+    background-size: contain;
+    background-repeat:   no-repeat;
+    background-position: center; 
+    
+    
+    
+}
+
+.worksgrid{
+    margin-top: 1%;
+    width: 90%;
+    margin: 0 auto;
     
 }
 
 
-.worksgrid{
-    margin-top: 50px;
+.abouttext{
+    margin-bottom: 5%;
+    color:dimgray;
 }
 
-
-.third{
-    padding-right: 0px !important;
+.marco{
+    width: 50%;
+    margin: 0 auto;
+    
+    
+}
+.marco img{
+    width: 100%;
+    background-repeat:   no-repeat;
+    background-position: center; 
+    margin-bottom: 10%;
 }
 
+.resumetext{
+    width: 80%;
+    margin: 0 auto;
+}
 
-p{
-    padding-bottom: 30px;
+h3{ 
+    color: dimgray
+}
+
+.resumetext div ul{
+    color: grey;
+    margin: 2%;
+    padding: 1%;
+    line-height: 150%;
+}
+
+h4{
+    display: inline
 }
