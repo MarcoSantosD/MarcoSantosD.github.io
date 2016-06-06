@@ -118,6 +118,7 @@ h1{
     float: left;
     position: relative;
     width: 31%;
+    max-width: 300px;
     margin: 1%;
     background-size: contain;
     background-repeat:   no-repeat;
