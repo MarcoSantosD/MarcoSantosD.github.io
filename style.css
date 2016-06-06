@@ -91,7 +91,7 @@ a {
 }
 
 .IMG{
-    background-image: url(designer.png);
+    background-image: url(homepic.png);
     width: 680px;
     height: 380px;
     background-size: contain;
@@ -132,6 +132,10 @@ h1{
     width: 90%;
     margin: 0 auto;
     
+}
+
+.worksgrid img{
+    width: 100%;
 }
 
 
