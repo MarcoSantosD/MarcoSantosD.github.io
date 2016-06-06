@@ -81,7 +81,7 @@ a {
 
 .content{
     margin: 0 auto;
-    margin-top: 5%;
+    margin-top: 2%;
     
 }
 
@@ -128,9 +128,9 @@ h1{
 }
 
 .worksgrid{
-    margin-top: 1%;
     width: 90%;
     margin: 0 auto;
+    margin-top: 1% !important;
     
 }
 
