@@ -26,7 +26,7 @@ a {
 
 .header{
     height: 90px;;
-    width: 90%;
+    width: 80%;
     font-size: 80%;
     margin: 0 auto;
 }
@@ -34,10 +34,11 @@ a {
 .header ul li{
     display: block;
     float: left;
-    width: 10%;
+    width: 14%;
     height: 30px;
     padding:0;
-    margin: 0 1.89%;
+    margin: 0;
+    font-size: 100%;
     
      
 }
@@ -86,7 +87,7 @@ a {
 .title{
     width: 300px;
     text-align: center;
-    margin: 0px auto;
+    margin: 0 auto;
 }
 
 .IMG{
