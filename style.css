@@ -34,11 +34,11 @@ a {
 .header ul li{
     display: block;
     float: left;
-    width: 14%;
+    width: 14.28%;
     height: 30px;
     padding:0;
     margin: 0;
-    font-size: 100%;
+    
     
      
 }
@@ -68,8 +68,7 @@ a {
     background-image: url(mas.png);
     background-size: contain;
     background-repeat:   no-repeat;
-    background-position: center; 
-    width: 120px!important;
+    background-position: center;
     height: 120px !important;
     border-bottom: 0px solid whitesmoke !important;
     margin-top: -4.5% !important;
