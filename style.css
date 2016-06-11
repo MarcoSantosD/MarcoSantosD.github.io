@@ -184,3 +184,7 @@ h4{
 .contacttext{
     margin-top: 5%;
 }
+
+skills div{
+    margin-top: 300px !important;
+}
