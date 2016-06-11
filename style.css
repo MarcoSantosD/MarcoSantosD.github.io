@@ -12,7 +12,6 @@ body{
     text-align: center;
      margin: 0 auto;
     font-family: sans-serif;
-    font-family: sans-serif;
     color: #D3D3D3;
     font-weight:500;
 }
@@ -111,6 +110,12 @@ h1{
     clear: both;
 }
 
+.first, .second, .third{
+    margin-top: 50px !important;
+}
+
+
+
 .worksgrid div{
     text-align: center;
     display: inline;
@@ -185,6 +190,20 @@ h4{
     margin-top: 5%;
 }
 
-skills div{
-    margin-top: 300px !important;
+
+
+li:hover{
+    color: dimgrey !important;
+    font-weight: 600;
+    border-bottom: 5px solid grey;
+    transition: all 0.4s ease-in-out;
+}
+
+.LOGO::hover{
+    border-bottom: 0px solid transparent !important;
+    transition: 
+}
+
+.first:hover{
+    opacity: 1;
 }
