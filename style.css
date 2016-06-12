@@ -6,6 +6,7 @@
 
 
 
+
 body{
     width: 80%;
     background-color: whitesmoke;
@@ -18,10 +19,14 @@ body{
 
 
 
+
+
 a {
     text-decoration: none;
     color: grey;
 }
+
+
 
 .header{
     height: 90px;;
@@ -141,6 +146,30 @@ h1{
     width: 100%;
 }
 
+.skills div{
+    text-align: center;
+    display: inline;
+    float: left;
+    position: relative;
+    width: 31%;
+    background-size: contain;
+    background-repeat:   no-repeat;
+    background-position: center;
+    margin: 1%;
+}
+
+.skills{
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 1% !important;
+    
+}
+
+.skills img{
+    width: 100%;
+}
+
+
 
 .abouttext{
     margin-bottom: 5%;
@@ -206,4 +235,49 @@ li:hover{
 
 .first:hover{
     opacity: 1;
+}
+
+
+
+
+.worksgrid .first img{
+    -webkit-filter: brightness(100%);
+}
+
+.worksgrid .second img{
+    -webkit-filter: brightness(100%);
+}
+
+.worksgrid .third img{
+    -webkit-filter: brightness(100%);
+}
+
+.worksgrid .first img:hover{
+    -webkit-filter: brightness(90%);
+}
+
+.worksgrid .second img:hover{
+    -webkit-filter: brightness(90%);
+}
+
+.worksgrid .third img:hover{
+    -webkit-filter: brightness(90%);
+}
+
+
+.worksfooter{
+    height: 50px;
+}
+
+.workstext{
+    width: 70%;
+    color: grey;
+    margin: 0 auto;
+    margin-top: 20px;
+    padding-left: 0px;
+}
+
+.workscontent{
+    margin: 0 auto;
+    margin-bottom: 50px;
 }
